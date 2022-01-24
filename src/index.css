@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+div.page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(0deg, #00000091, #000000);
+}
+
+.container {
+  width: 80%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rrss-a {
+  width: 80%;
+  padding: 15px 10px;
+  border: none;
+  font-size: 18pt;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  target=_blank;
+}
+
+.card-a {
+  padding: 0px 0px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+/*
+.container a:hover {
+  background: blue;
+}
+*/
+.imgprin {
+  height: 125px;
+}
+
+.imgrrss {
+  height: 35px;
+}
+.card {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-aling: center;
+  border: none;
+  border-radius: 30px;
+  height: 100px;
+  width: 150px;
+  background: #00000069;
+  box-shadow: 0px 2px 5px rgba(230, 175, 72, 0.2);
+  cursor: pointer;
+}
+
+.card-img {
+  width: 50px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.card-text {
+  font-size: 19px;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 600;
+  display: block;
+  font-size: 1em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.botonera {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.nombre {
+  font-size: 19px;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 600;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.eslogan {
+  font-sice: 15px;
+  color: #ffffffbd;
+  font-family: "Roboto", Sans-serif;
+  line-height: 1;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-top: 10px;
+}
